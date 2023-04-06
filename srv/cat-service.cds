@@ -22,7 +22,7 @@ service CatalogService @(path: '/browse') {
     modifiedBy
   };
 
-  @requires: 'authenticated-user'
+  // @requires: 'authenticated-user'
   action submitOrder(book : Books:ID, quantity : Integer) returns {
     stock : Integer
   };
