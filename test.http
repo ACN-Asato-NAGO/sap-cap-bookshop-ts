@@ -1,0 +1,11 @@
+@server = env.HOST
+
+
+### GET {{server}}/browse/ListOfBooks
+GET {{server}}/browse/ListOfBooks
+
+### POST {{server}}/browse/submitOrder
+POST {{server}}/browse/submitOrder
+Content-Type: application/json
+
+{ "book":201, "quantity":5 }
