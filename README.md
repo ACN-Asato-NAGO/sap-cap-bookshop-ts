@@ -23,3 +23,6 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
+
+
+https://f772567btrial.authentication.us10.hana.ondemand.com/oauth/authorize?response_type=code&client_id=sb-bookshop-ts-f772567btrial-dev!t149165&redirect_uri=https%3A%2F%2Ff772567btrial-dev-bookshop-ts.cfapps.us10-001.hana.ondemand.com%2Flogin%2Fcallback

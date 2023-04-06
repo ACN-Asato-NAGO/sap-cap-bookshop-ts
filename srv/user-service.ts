@@ -10,7 +10,6 @@ export class UserService extends cds.Service {
     }));
     this.on("login", (req: Request) => {
       const { user, data } = req;
-      console.dir({ user, data }, { depth: null });
       console.log({ user });
       if (user) {
         return this.read("me");
