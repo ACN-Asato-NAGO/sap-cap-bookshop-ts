@@ -26,9 +26,19 @@
   },
   "cds": {
     "requires": {
-      "db": {
-        "kind": "hana-cloud"
+      "[production]": {
+        "db": {
+          "kind": "hana-cloud"
+        }
+      },
+      "[development]": {
+        "db": {
+          "kind": "sql"
+        }
       }
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
     }
   }
 }
