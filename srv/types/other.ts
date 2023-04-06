@@ -1,7 +1,5 @@
 export type User = string;
 
-export enum Entity {
-}
+export enum Entity {}
 
-export enum SanitizedEntity {
-}
+export enum SanitizedEntity {}
