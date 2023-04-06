@@ -19,6 +19,7 @@
   "scripts": {
     "start": "cds run",
     "watch": "cds-ts watch",
+    "generate": "npx cds2types --cds srv/cat-service.cds --output srv/types/ --prefix I",
     "build:cf": "npm run build:cds && npm run cleanup:ts && npm run build:ts",
     "build:ts": "tsc",
     "build:cds": "cds build --production",
